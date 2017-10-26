@@ -1,5 +1,3 @@
-var isUtf8 = require('is-utf8');
-
 module.exports = function(RED) {
   function MQTTOutNode(n) {
     RED.nodes.createNode(this,n);
