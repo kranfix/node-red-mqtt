@@ -1,0 +1,35 @@
+{
+  "name": "node-red-mqtt",
+  "version": "0.0.1",
+  "description": "An educational example of MQTT in Node-RED",
+  "author": "kranfix <frankmoreno1993@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://github.com/kranfix/node-red-mqtt.git"
+  },
+  "dependencies": {
+    "mqtt": "^2.13.1"
+  },
+  "keywords": [
+    "node-red",
+    "mqtt",
+    "pub/sub",
+    "iot"
+  ],
+  "node-red": {
+    "nodes": {
+      "mqtt-in": "mqtt-in.js",
+      "mqtt-out": "mqtt-out.js",
+      "mqtt-broker": "mqtt-broker.js"
+    }
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kranfix/node-red-mqtt/issues"
+  },
+  "homepage": "https://github.com/kranfix/node-red-mqtt#readme",
+  "main": "mqtt-in.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
