@@ -1,9 +1,6 @@
+var isUtf8 = require('is-utf8');
+
 module.exports = function(RED) {
-  "use strict";
-  var mqtt = require("mqtt");
-  var util = require("util");
-  var isUtf8 = require('is-utf8');
-    
   function MQTTOutNode(n) {
     RED.nodes.createNode(this,n);
     this.topic = n.topic;
