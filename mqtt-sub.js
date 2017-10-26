@@ -43,5 +43,5 @@ module.exports = function(RED) {
       this.error(RED._("mqtt.errors.missing-config"));
     }
   }
-  RED.nodes.registerType("MQTT-in",MQTTInNode);
+  RED.nodes.registerType("MQTT-sub",MQTTInNode);
 };

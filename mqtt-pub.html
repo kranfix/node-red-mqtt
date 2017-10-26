@@ -1,4 +1,4 @@
-<script type="text/x-red" data-template-name="MQTT-out">
+<script type="text/x-red" data-template-name="MQTT-pub">
   <div class="form-row">
     <label for="node-input-broker"><i class="fa fa-globe"></i> <span>Broker</span></label>
     <input type="text" id="node-input-broker">
@@ -32,7 +32,7 @@
   </div>
 </script>
 
-<script type="text/x-red" data-help-name="MQTT-out">
+<script type="text/x-red" data-help-name="MQTT-pub">
   <p>Connects to a MQTT broker and publishes messages.</p>
   <h3>Inputs</h3>
   <dl class="message-properties">
@@ -59,7 +59,7 @@
 </script>
 
 <script type="text/javascript">
-  RED.nodes.registerType('MQTT-out',{
+  RED.nodes.registerType('MQTT-pub',{
     category: 'MQTT',
     defaults: {
       name: {value:""},

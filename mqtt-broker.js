@@ -1,9 +1,7 @@
-module.exports = function(RED) {
-  "use strict";
-  var mqtt = require("mqtt");
-  var util = require("util");
-  var isUtf8 = require('is-utf8');
+"use strict";
+var mqtt = require("mqtt");
 
+module.exports = function(RED) {
   function matchTopic(ts,t) {
     if (ts == "#") {
       return true;
@@ -298,3 +296,4 @@ module.exports = function(RED) {
       password: {type: "password"}
     }
   });
+}

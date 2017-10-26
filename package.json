@@ -1,6 +1,6 @@
 {
   "name": "node-red-mqtt",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "An educational example of MQTT in Node-RED",
   "author": "kranfix <frankmoreno1993@gmail.com>",
   "repository": {
@@ -18,8 +18,8 @@
   ],
   "node-red": {
     "nodes": {
-      "mqtt-in": "mqtt-in.js",
-      "mqtt-out": "mqtt-out.js",
+      "mqtt-sub": "mqtt-sub.js",
+      "mqtt-pub": "mqtt-pub.js",
       "mqtt-broker": "mqtt-broker.js"
     }
   },

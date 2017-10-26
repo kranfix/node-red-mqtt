@@ -43,5 +43,5 @@ module.exports = function(RED) {
       this.error(RED._("mqtt.errors.missing-config"));
     }
   }
-  RED.nodes.registerType("MQTT-out",MQTTOutNode);
+  RED.nodes.registerType("MQTT-pub",MQTTOutNode);
 };
